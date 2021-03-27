@@ -1,0 +1,297 @@
+#icon{
+    border-radius: 1000%;
+    margin: 300%;
+}
+
+/*Style du header du site*/
+body {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 100%;
+    background-color: #145c53;
+}
+.titre {
+    background-color: #ffce14;
+    text-align: center;
+    color: rgb(253, 0, 21);
+    font-family: 'Franklin Gothic Medium';
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.menu {
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li {
+    list-style-type: none;
+}
+.menu ul li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.menu ul li>a:hover {
+    color: rgb(253, 0, 21);
+}
+
+
+
+
+
+
+
+
+
+/*Ici c'est le style de la page d'accueil*/
+/*Style de la barre d'info*/
+
+.info {
+    margin: 10px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info>div:first-child {
+    padding: 10px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.info>div:nth-child(2) {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+
+
+/*style de la disposition des article*/
+
+.grand-titre {
+    width: 100%;
+    background-color: #145c53;
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px 1px 20px;
+}
+
+.liste-article {
+    margin: 10px 0;
+}
+
+.liste-article>article {
+    padding: 5px 15px;
+    box-shadow: 3px 1px 10px silver;
+    border-left: 5px solid silver;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 10px;
+}
+
+.image-article img {
+    width: 100%;
+}
+
+.liste-article>article>div:nth-child(2) {
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+/* Page presentation */
+section aside{
+    float: left;
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.vide{
+    float: left;
+    width: 5px;
+    height: 550px;
+}
+.togo{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+.flag{
+    height: 100px;
+    width: 100%
+}
+figcaption{
+    text-align: center;
+}
+
+
+
+
+
+/* A propos*/
+.lien_propos div a{
+    align-content: center;
+    color: white;
+    text-decoration-line: none;
+}
+.contenu, .foot_propos{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#apropos{
+    background-image: url('images/fond.png'); 
+    font-size: 1.5em; 
+}
+.lien_propos{
+    display: flex;
+    justify-content: space-between;
+}
+.lien_propos div{
+    width: 25%;
+}
+.foot_propos{
+    margin-left: 35%;
+    position: fixed;
+    padding-bottom: 0px;
+}
+
+
+#icon{
+    border-radius: 1000%;
+    height: 200px;
+    margin: 200px;
+}
+
+
+
+
+/*Style de la page Géographie*/
+#bloc{
+    overflow: hidden;
+}
+.lisiere{
+    float: left;
+    height: 129em;
+    width: 15%;
+    background-color: #F4F3F3;
+}
+.geo{
+    float: left;
+    width: 84%;
+    padding-left: 6px;
+    border-left: solid 2px #82c8fe;
+    background-image: url("images/fond_grey.png");
+}
+.geotg{
+    float: right;
+    width: 26%;
+    border: solid 0.1em;
+    background-color: #F4F3F3;
+    line-height: 1.5em;
+    margin-right: 0px;
+    align-content: center;
+}
+    .entete{
+    background-color:#E1E1E1;
+    color:black;
+    text-align:center;
+    height: 10px;
+    }
+    .togo_geo img{
+    width: 100%;
+    }
+    th{
+    text-align: left;
+    }
+
+
+/*Historique*/
+.contenu-pageh {
+    padding: 5px 70px;
+    background-image: url('images/logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+
+/*Tourisme*/
+.t_contenu-page{
+    margin-top: 0px;
+    padding-left: 3px;
+    background-color: #F4F3F3;
+}
+.p{
+    text-align: center;
+    font-size: 2em;
+}
+.t_titre img{
+    width: 100%;
+    height: 150px;
+    padding: 0px 0px;
+}
+.t_images img{
+    width: 300px;
+    height: 300px;
+}
+.t_images p{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+
+
+
+/*Style du footer */
+footer {
+    background-color: #a5b9be;
+    padding: 10px 130px;
+    text-align: center;
+}
+
+.lien {
+    display: flex;
+    justify-content: space-between;
+}
+.lien>div a {
+    text-decoration: none;
+    color: rgb(41, 31, 31);
+}
+.lien>div a:hover {
+    color: rgb(253, 0, 21);
+}
+
+
+
+/*Ici c'est le style commun des pages du site*/
+
+.active{
+    border: transparent 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #ffce14;
+}
+.menu ul .active > a{
+    color: #000000;
+}
+ ul li {
+    list-style-type: none;
+}
